@@ -25,29 +25,44 @@ Code Book (variables)
 ---------------
 
 0)
+
 featureD <- List of all features.
+
 activityLD<-Links the class labels with their activity name.
+
 trainXD<-Training set.
+
 trainYD<-Training labels.
+
 testXD<-Test set.
+
 testYD<-Test labels.
 
-1)Merges the training and the test sets to create one data set.
+
+1)
 XD<- full data set
+
 YD<- labels
 
 
-
 2)
-intCol<-column names that contains the measurements on the mean and standard deviation for each measurement
-XD<-data set with the interesting  columns
+
+intCol<- column names that contains the measurements on the mean and standard deviation for each measurement
+
+XD<- data set with the interesting  columns
+
 
 4)
+
 SD<-full data set with the interesting columns and descriptive activity labels
 
 
-5)From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5)
+
 resD<-data set with agregation by activity name (with a "mean" as funtion to aggregate)
+
 prefixes <- list of prefixes identifying the subjects
+
 result<-data set with the average of each variable for each activity and each subject
+
 
